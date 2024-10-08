@@ -76,6 +76,11 @@ docker compose version
 docker compose up -d
 ```
 
+Verifique se o container foi executado com sucesso:
+```
+docker ps
+```
+
 9. Dentro do diretório do seu projeto (`stock-be`), crie um arquivo `.env` e dentro dele ponha as seguintes credenciais:
 ```
 DATABASE_URL="postgresql://root:123@localhost:5432/stock?schema=public"
